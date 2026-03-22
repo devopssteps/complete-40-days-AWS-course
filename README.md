@@ -3,9 +3,10 @@
 ## 🔹 PHASE 1 — Cloud & AWS Foundations
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 01     | Cloud Computing Basics                                                   |
-| Day 02     | AWS Free Tier, Create AWS Account, MFA Setup, Budget setup, Regions & Availability Zones                     |
-| Day 03     | IAM Users, Groups, Policies                                                      |
+| Day 0      | Course Outline                      |
+| Day 01     | Cloud Computing Basics ( IaaS vs PaaS vs SaaS, Public vs Private vs Hybrid Cloud )                                                   |
+| Day 02     | AWS Introduction (Free Tier, Create AWS Account, MFA Setup, Budget setup, Regions & Availability Zones)                     |
+| Day 03     | IAM Deep Dive with hands on lab (IAM Users, Groups, Policies)                                                      |
 | Day 04     | AWS CLI Setup, Configure AWS CLI, Basic CLI Commands                                                         |
 | Day 05     | Key Pairs, Security Groups, Connect via SSH, Launch EC2 Instance, EC2 Pricing & Instance Types                        |
 | Day 06     | EBS (Elastic Block Store), Attach & Mount Volume            |
@@ -37,10 +38,9 @@
 | ---------- | --------------------------------------------------------------------------------- |
 | Day 17     | Auto Scaling Groups                                                    |
 | Day 18     | Launch Templates, Multi-AZ Architecture                     |
-| Day 19     | CloudWatch with hands on                                                      |
-| Day 20     | CloudWatch Alarms with hands on   |
-| Day 21     | SNS (Simple Notification Service)                                                    |
-| Day 22     | SQS (Simple Queue Service)                     |
+| Day 19     | CloudWatch and CloudWatch Alarms with hands on                                                      |
+| Day 20     | SNS (Simple Notification Service)                                                    |
+| Day 21     | SQS (Simple Queue Service)                     |
 
 
 ## 🔹 PHASE 5 — Serverless & Modern AWS
@@ -65,10 +65,10 @@
 ## 🔹 PHASE 7 — DevOps on AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 30     | CodeCommit                                                  |
-| Day 31     | CodeBuild          |
-| Day 32     | CodeDeploy                                                     |
-| Day 33     | CodePipeline   |
+| Day 30     | CodeCommit with hands on lab                                                 |
+| Day 31     | CodeBuild with hands on lab           |
+| Day 32     | CodeDeploy with hands on lab                                                      |
+| Day 33     | CodePipeline with hands on lab    |
 | Day 34     | CI/CD Pipeline Demo                                                  |
 | Day 35     | Infrastructure as Code (CloudFormation)          |
 | Day 36     | Terraform on AWS                                                     |
