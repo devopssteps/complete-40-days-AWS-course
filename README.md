@@ -7,7 +7,7 @@
 | ---------- | --------------------------------------------------------------------------------- |
 | Day 0      | Course Outline                      |
 | Day 01     | Cloud Computing Basics ( IaaS vs PaaS vs SaaS, Public vs Private vs Hybrid Cloud )                                                   |
-| Day 02     | AWS Introduction (Free Tier, Create AWS Account, MFA Setup, Budget setup, Regions & Availability Zones)                     |
+| Day 02     | AWS Introduction (Free Tier, Create AWS Account, MFA Setup, Budget setup, Regions & AZ)                     |
 | Day 03     | IAM Deep Dive with hands on lab (IAM Users, Groups, Policies)                                                      |
 | Day 04     | AWS CLI Setup, Configure AWS CLI, Basic CLI Commands                                                         |
 | Day 05     | Key Pairs, Security Groups, Connect via SSH, Launch EC2 Instance, EC2 Pricing & Instance Types                        |
