@@ -1,5 +1,6 @@
 # Complete Free AWS Course – 40 Days from Zero to Pro!
-## Channel URL: https://www.youtube.com/@DevOpsSteps
+## Channel URL (Bangla): https://www.youtube.com/@DevOpsSteps
+## Channel URL (English): https://www.youtube.com/@CloudOpsSteps
 ### Free AWS Course Playlist URL: https://www.youtube.com/playlist?list=PLxE3NVfpgaU_0sqrV03oSUnL5tGiU6fRk
 
 ## 🔹 PHASE 1 — Cloud & AWS Foundations
