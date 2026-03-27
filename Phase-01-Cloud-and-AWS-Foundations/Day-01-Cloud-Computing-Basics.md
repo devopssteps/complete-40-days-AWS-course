@@ -1,7 +1,15 @@
 # Complete 40 days AWS Course (day 1)
 
-# What is Cloud Computing? | IaaS vs PaaS vs SaaS | Public vs Private vs Hybrid Cloud
 
+### Todays class topics:
+ - What is Cloud Computing?
+ - Cloud Computing Concept
+ - Key Characteristics of Cloud
+ - Hands-on Demo (Create First Cloud Server)
+ - IaaS vs PaaS vs SaaS
+ - Public vs Private vs Hybrid Cloud
+ - Real World Example
+ - DevOps Perspective
 ---
 
 # 1. What is Cloud Computing?
@@ -45,11 +53,11 @@ provide infrastructure **on demand**.
 
 Advantages:
 
- ✔  Pay only for what you use
- ✔  Launch servers in minutes
- ✔  Global infrastructure
- ✔  High availability
- ✔  Auto scaling
+  - ✔ Pay only for what you use
+  - ✔ Launch servers in minutes
+  - ✔ Global infrastructure
+  - ✔ High availability
+  - ✔ Auto scaling
 
 Example:
 
@@ -305,9 +313,9 @@ Example:
 
 Advantages:
 
-✔ Cheap
-✔ Highly scalable
-✔ No maintenance
+ - ✔ Cheap
+ - ✔ Highly scalable
+ - ✔ No maintenance
 
 ---
 
@@ -326,8 +334,8 @@ Technologies:
 
 Advantages:
 
-✔ High security
-✔ Full control
+ - ✔ High security
+ - ✔ Full control
 
 Disadvantages:
 
@@ -351,9 +359,9 @@ Example technologies:
 
 Advantages:
 
-✔ Flexibility
-✔ Security
-✔ Cost optimization
+ - ✔ Flexibility
+ - ✔ Security
+ - ✔ Cost optimization
 
 ---
 
