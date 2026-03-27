@@ -229,19 +229,6 @@ Examples:
 * Amazon EBS
 * DigitalOcean
 
-Diagram explanation for video:
-
-```
-You manage
-Application
-Runtime
-OS
-----------------
-Provider manages
-Network
-Storage
-Server
-```
 
 ---
 
