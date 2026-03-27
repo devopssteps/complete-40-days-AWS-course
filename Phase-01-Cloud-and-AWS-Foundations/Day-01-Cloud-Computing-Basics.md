@@ -45,11 +45,11 @@ provide infrastructure **on demand**.
 
 Advantages:
 
-✔ Pay only for what you use
-✔ Launch servers in minutes
-✔ Global infrastructure
-✔ High availability
-✔ Auto scaling
+ ✔  Pay only for what you use
+ ✔  Launch servers in minutes
+ ✔  Global infrastructure
+ ✔  High availability
+ ✔  Auto scaling
 
 Example:
 
