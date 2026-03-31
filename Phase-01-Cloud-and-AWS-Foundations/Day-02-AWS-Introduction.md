@@ -1,6 +1,4 @@
-# Day-02-AWS Introduction - **Complete 40 days AWS Course (Day 02)**
-
-**“Introduction to AWS, AWS Global Infrastructure, Regions & Availability Zones”**
+# Complete 40 days AWS Course (day 2) - Introduction to AWS 
 
 
 ---
