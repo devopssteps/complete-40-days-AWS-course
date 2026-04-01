@@ -12,6 +12,7 @@
  - AWS Free Tier
  - MFA Setup (Hands-on)
  - Budget setup (Hands-on)
+ - Check our usages
  
 Platform we are learning:
 
