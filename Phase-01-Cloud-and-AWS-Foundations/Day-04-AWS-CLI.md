@@ -22,8 +22,6 @@ aws ec2 describe-instances
 
 # 2️⃣ Why AWS CLI is Important (DevOps Perspective)
 
-Explain clearly:
-
  * ✔ Automation
  * ✔ Scripting
  * ✔ CI/CD pipelines
