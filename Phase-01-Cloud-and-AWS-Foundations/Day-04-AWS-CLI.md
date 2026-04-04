@@ -8,7 +8,7 @@
 
 # 1️⃣ Introduction to AWS CLI
 
-Start your video like this:
+What is AWS CLI:
 
 > AWS CLI is a tool that allows you to interact with AWS services directly from your terminal instead of using the web console.
 
