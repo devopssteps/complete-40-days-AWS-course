@@ -1,5 +1,5 @@
 # Complete 40 days AWS Course (day 3) - AWS IAM Explained
-# Toyday's video will cover:
+## Toyday's video will cover:
  * User
  * Group
  * Policies
