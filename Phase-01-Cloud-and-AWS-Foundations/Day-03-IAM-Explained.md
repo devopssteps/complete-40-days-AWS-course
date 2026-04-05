@@ -236,7 +236,7 @@ This demonstrates **permission control**.
 
 # 6️⃣ IAM Policy Example
 
-Show simple JSON policy example.
+Show simple JSON policy example.<br>
 ✅ EC2 Read-Only IAM Policy
 ```
 {
