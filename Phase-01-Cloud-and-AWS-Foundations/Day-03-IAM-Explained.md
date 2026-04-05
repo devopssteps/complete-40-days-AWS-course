@@ -237,17 +237,21 @@ This demonstrates **permission control**.
 # 6️⃣ IAM Policy Example
 
 Show simple JSON policy example.
-
+✅ EC2 Read-Only IAM Policy
 ```
 {
- "Version": "2012-10-17",
- "Statement": [
-   {
-     "Effect": "Allow",
-     "Action": "ec2:DescribeInstances",
-     "Resource": "*"
-   }
- ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "EC2ReadOnlyAccess",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Describe*",
+        "ec2:Get*"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ```
 
