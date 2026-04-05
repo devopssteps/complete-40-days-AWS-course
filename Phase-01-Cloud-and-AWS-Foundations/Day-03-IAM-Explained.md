@@ -283,9 +283,9 @@ Developers may only get **read access**.
 
 Practice these following things:
 
-1️⃣ Create IAM user
-2️⃣ Create group
-3️⃣ Attach policy
-4️⃣ Login with IAM user
+ * 1️⃣ Create IAM user
+ * 2️⃣ Create group
+ * 3️⃣ Attach policy
+ * 4️⃣ Login with IAM user
 
 ---
