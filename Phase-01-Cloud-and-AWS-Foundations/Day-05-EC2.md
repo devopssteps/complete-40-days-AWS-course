@@ -14,7 +14,7 @@
 
 # 1️⃣ Introduction to EC2
 
-Start like this:
+What is Ec2:
 
 > Amazon EC2 is a service that allows you to create virtual servers in the cloud.
 
