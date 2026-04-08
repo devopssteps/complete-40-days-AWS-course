@@ -267,9 +267,9 @@ Tools used:
 
 # 🔟 Common Mistakes
 
-❌ Forgot SSH port → cannot connect
-❌ Wrong key → permission denied
-❌ Security group blocked
+ - ❌ Forgot SSH port → cannot connect
+ - ❌ Wrong key → permission denied
+ - ❌ Security group blocked
 
 ---
 
