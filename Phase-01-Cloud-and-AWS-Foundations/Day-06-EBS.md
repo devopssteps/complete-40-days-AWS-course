@@ -34,7 +34,7 @@ Start your video like this:
 | st1       | Throughput optimized |
 | sc1       | Cold storage         |
 
-👉 For demo, use **gp3 (recommended)**
+👉 For demo, we use **gp3 **
 
 ---
 
