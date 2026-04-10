@@ -217,7 +217,7 @@ sudo blkid
 ## Step 2: Edit fstab
 
 ```bash
-sudo nano /etc/fstab
+sudo vi /etc/fstab
 ```
 
 Add:
