@@ -1,6 +1,6 @@
-# Deploy Website on AWS EC2 Step-by-Step
+# Project 1: Deploy Website on AWS EC2 Step-by-Step
 
-“Todays video we will deploy our website on AWS in just 10 minutes.”
+### Todays video we will deploy our website on AWS in just 10 minutes.
 
 ---
 
