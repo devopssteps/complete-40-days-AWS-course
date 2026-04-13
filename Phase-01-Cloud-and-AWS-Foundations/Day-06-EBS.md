@@ -9,6 +9,7 @@
  * Hands-on – Mount EBS Volume
  * Test Storage
  * Make Mount Permanent
+ * Invrease our current volume without restart 
  * Real DevOps Use Cases
  * Common Mistakes
  
