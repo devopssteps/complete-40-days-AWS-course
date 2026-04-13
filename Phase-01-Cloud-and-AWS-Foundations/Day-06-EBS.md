@@ -257,7 +257,16 @@ Used with:
  - ❌ Not added in fstab → data not mounted after reboot
 
 ---
+# Increase Volume 
+ - Increase volume from AWS console
+ - Now run the following command 
 
+```bash
+sudo growpart /dev/nvme0n1 1
+sudo xfs_growfs -d /
+```
+
+---
 # Homework
 
  - 1️⃣ Create EBS volume
