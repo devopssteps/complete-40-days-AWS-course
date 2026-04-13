@@ -15,7 +15,7 @@
 ---
 # 1️⃣ Introduction to EBS
 
-Start your video like this:
+What is EBS volume:
 
 > Amazon EBS is a block storage service that provides persistent storage for EC2 instances.
 
