@@ -33,7 +33,6 @@ What is EFS:
 | Scaling  | Auto         | Manual        |
 | Use case | Shared apps  | Database      |
 
-👉 Say this clearly in video (good for SEO)
 
 ---
 
