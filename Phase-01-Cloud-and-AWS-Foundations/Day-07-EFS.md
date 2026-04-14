@@ -169,7 +169,7 @@ You will see:
 
 ---
 
-# 8️⃣ Test Shared Storage (Powerful Demo)
+# 8️⃣ Test Shared Storage 
 
 ---
 
