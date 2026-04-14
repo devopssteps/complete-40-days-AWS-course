@@ -18,9 +18,9 @@ What is EFS:
 
 > Amazon EFS is a scalable file storage service that allows multiple EC2 instances to share the same file system.
 
-✔ Shared storage (like NFS)
-✔ Auto scaling
-✔ Multi-instance access
+ - ✔ Shared storage (like NFS)
+ - ✔ Auto scaling
+ - ✔ Multi-instance access
 
 ---
 
