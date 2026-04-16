@@ -20,7 +20,7 @@ We will create:
  - ✔ 1 NAT Gateway
  - ✔ 2 Route Tables
 
-👉 Say clearly:
+👉 We will create 2 subnet as follows:
 
 * Public subnet → Internet access
 * Private subnet → No direct internet
