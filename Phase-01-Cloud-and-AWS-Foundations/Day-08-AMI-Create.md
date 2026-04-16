@@ -79,6 +79,8 @@ ssh -i my-key.pem ec2-user@YOUR_PUBLIC_IP
 ```bash id="c4v8z2"
 sudo yum install nginx -y
 sudo systemctl start nginx
+sudo systemctl enable nginx
+
 ```
 
 ---
