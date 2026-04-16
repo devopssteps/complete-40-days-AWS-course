@@ -245,11 +245,6 @@ Explain clearly:
  - ✔ Private subnet → App / DB
  - ✔ NAT → Secure internet access
 
-Used with:
-
-* Kubernetes
-* Docker
-
 ---
 
 # 1️⃣3️⃣ Common Mistakes
