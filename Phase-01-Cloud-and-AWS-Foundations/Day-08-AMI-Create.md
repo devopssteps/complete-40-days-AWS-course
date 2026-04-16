@@ -1,4 +1,4 @@
-## day 2 : AMI (Amazon Machine Image)
+## Day 8 : AMI (Amazon Machine Image)
 
 # 1️⃣ Introduction to AMI
 
