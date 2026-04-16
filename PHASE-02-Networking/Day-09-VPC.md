@@ -266,9 +266,9 @@ Explain clearly:
 
 # 1️⃣5️⃣ Homework
 
-1️⃣ Create VPC
-2️⃣ Add public/private subnet
-3️⃣ Configure NAT
-4️⃣ Test connectivity
+ - 1️⃣ Create VPC
+ - 2️⃣ Add public/private subnet
+ - 3️⃣ Configure NAT
+ - 4️⃣ Test connectivity
 
 ---
