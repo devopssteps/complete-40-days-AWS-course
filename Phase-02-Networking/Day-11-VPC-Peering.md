@@ -18,7 +18,7 @@
 
 # 3️⃣ Architecture Overview
 
-You will create:
+We will create:
 
  - ✔ VPC-1 (10.0.0.0/16)
  - ✔ VPC-2 (20.0.0.0/16)
