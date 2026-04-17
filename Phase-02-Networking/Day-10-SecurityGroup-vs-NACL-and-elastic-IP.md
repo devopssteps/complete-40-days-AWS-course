@@ -35,8 +35,6 @@
 | Type    | Stateful       | Stateless    |
 | Rules   | Allow only     | Allow + Deny |
 
-👉 Say this slowly for SEO
-
 ---
 
 # 3️⃣ Hands-on Demo – Security Group
