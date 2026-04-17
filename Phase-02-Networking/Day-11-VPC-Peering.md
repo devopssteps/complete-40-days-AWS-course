@@ -223,8 +223,6 @@ Explain clearly:
 
 # 1️⃣4️⃣ Summary
 
-👉 Say clearly:
-
 * VPC Peering = private communication
 * Works via route tables
 * No internet required
