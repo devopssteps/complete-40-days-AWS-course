@@ -1,4 +1,4 @@
-# Complete 40 days AWS Course (day 9) - VPC
+# Full AWS Course (40 days) day 9 - VPC
 
 ---
 
