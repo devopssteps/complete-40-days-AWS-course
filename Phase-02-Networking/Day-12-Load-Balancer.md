@@ -179,7 +179,8 @@ http://ALB-DNS
 Example:
 
 ```text
-Click ALB1 > CLick HTTP:80 > Add rule > click Add condition then select Path > type error in path condition value > select return fixed option from Action > type 404 in reponse code > type page not found in Response body > Next >  type a priority like 5 > Next > click Add rule 
+Click ALB1 > CLick HTTP:80 > Add rule > click Add condition then select Path > type error in path condition value > select return fixed option from Action >
+type 404 in reponse code > type page not found in Response body > Next >  type a priority like 5 > Next > click Add rule 
 ```
 Now go to the browser and type URL : loadbalancer dns/error 
 <br>
