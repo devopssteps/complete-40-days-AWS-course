@@ -2,7 +2,7 @@
 
 ---
 
-# 1️⃣ Introduction 
+# 1️⃣ Introduction  
 
 > What happens if your server gets too much traffic? Your app will crash. That’s why we use Load Balancers. In this video, we’ll learn Application Load Balancer and Network Load Balancer with real hands-on demo.
 
