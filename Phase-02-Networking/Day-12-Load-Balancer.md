@@ -186,7 +186,6 @@ type a priority like 5 > Next > click Add rule
 ```
 
 ### Now go to the browser and type URL : loadbalancer dns/error 
-<br>
 ### We will get the message page not found
 ---
 
