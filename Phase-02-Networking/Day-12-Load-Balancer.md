@@ -184,6 +184,7 @@ type error in path condition value > select return fixed option from Action >
 type 404 in reponse code > type page not found in Response body > Next >
 type a priority like 5 > Next > click Add rule 
 ```
+
 Now go to the browser and type URL : loadbalancer dns/error 
 <br>
 We will get the message page not found
