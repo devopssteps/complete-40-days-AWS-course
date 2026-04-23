@@ -43,7 +43,7 @@ Example:
 
 ---
 
-# 4️⃣ Architecture (Explain Clearly)
+# 4️⃣ Architecture 
 
 ```text
 User → Load Balancer → EC2 Instances
