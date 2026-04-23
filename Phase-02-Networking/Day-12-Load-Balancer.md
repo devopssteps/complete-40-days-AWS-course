@@ -153,7 +153,7 @@ Add both EC2 instances
 
 ---
 
-# 7️⃣ Test ALB (Important Demo)
+# 7️⃣ Test ALB 
 
 Open:
 
@@ -170,7 +170,7 @@ http://ALB-DNS
 
 ---
 
-# 8️⃣ Advanced ALB Feature (Bonus)
+# 8️⃣ Advanced ALB Feature 
 
 ---
 
@@ -182,8 +182,6 @@ Example:
 /app → server 1
 /api → server 2
 ```
-
-👉 Explain briefly (good for SEO)
 
 ---
 
