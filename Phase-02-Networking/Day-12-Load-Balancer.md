@@ -1,4 +1,4 @@
-# AWS Load Balancer (ALB & NLB) – Full Hands-on
+# Day-12: AWS Load Balancer (ALB & NLB) – Full Hands-on
 
 ---
 
