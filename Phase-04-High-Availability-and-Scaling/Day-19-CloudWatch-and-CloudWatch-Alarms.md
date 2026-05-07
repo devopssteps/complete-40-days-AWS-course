@@ -1,5 +1,4 @@
 # Day-19: CloudWatch and CloudWatch Alarms with hands on
----
 
 # 🚀 What is CloudWatch?
 
@@ -25,169 +24,156 @@ It helps you:
 👉 Used by every DevOps Engineer in production
 
 ---
-# SNS (Simple Notification Service)
----
-# What is SNS?
 
-**Amazon Simple Notification Service (SNS)** is a **fully managed messaging service** in
-**Amazon Web Services**.
-
-👉 It is used to:
-
-* Send notifications 📩
-* Trigger automation ⚙️
-* Connect multiple services
-
----
-
-# 🎯 Key Concept (Very Important)
-
-### 📡 Pub/Sub Model
-
-* **Publisher** → sends message
-* **Topic** → message channel
-* **Subscriber** → receives message
-
-👉 Example:
-
-```id="s9a7hp"
-CloudWatch → SNS Topic → Email / SMS / Lambda
-```
-
----
-
-# 🔥 Why SNS is Important?
-
-* Real-time alerts 🚨
-* Decoupled architecture
-* Scalable messaging
-* Works with many AWS services
-
----
-
-
----
 # 🏗️ Architecture Overview
 
 ```id="g2i2wx"
 EC2 → CloudWatch Metrics → Alarm → SNS → Email Notification
 ```
 
----
+# 🚀 What is SQS?
 
-# 🧪 Hands-On Demo (Step-by-Step)
+**Amazon Simple Queue Service (SQS)** is a **fully managed message queue service** in
+**Amazon Web Services**.
 
-## 🔹 Step 1: Launch EC2 Instance
+👉 It allows systems to:
 
-Go to EC2:
-
-* AMI: Amazon Linux 2
-* Instance: t2.micro
-* Allow SSH
-
-👉 Service: Amazon EC2
+* Send messages 📩
+* Store them in a queue
+* Process them later (asynchronously)
 
 ---
 
-## 🔹 Step 2: Check Default Metrics
+# 🎯 Key Concept (Very Important)
 
-Go to:
-👉 CloudWatch → Metrics → EC2
+## 📦 Queue-Based Architecture
 
-You will see:
-
-* CPUUtilization
-* NetworkIn/Out
-
----
-
-## 🔹 Step 3: Create CloudWatch Alarm 🚨
-
-### 🎯 Goal:
-
-Trigger alert when CPU > 70%
-
-### Steps:
-
-1. Go to **CloudWatch → Alarms → Create Alarm**
-2. Select Metric:
-
-   * EC2 → Per Instance → CPUUtilization
-3. Set Condition:
-
-   * Threshold: **> 70%**
-4. Configure Notification:
-
-   * Create SNS topic
-
----
-
-## 🔹 Step 4: Setup Notification (SNS)
-
-Use:
-👉 Amazon SNS
-
-Steps:
-
-* Create topic
-* Add your email
-* Confirm subscription
-
----
-
-## 🔹 Step 5: Generate CPU Load (Test Alarm)
-
-SSH into EC2:
-
-```bash id="o5skq7"
-sudo yum install -y stress
-stress --cpu 2 --timeout 300
+```id="j55c1g"
+Producer (App) → SQS Queue → Consumer (Worker)
 ```
 
----
-
-## 🔍 Observe:
-
-* CPU increases 📈
-* Alarm state changes:
-
-  * OK → ALARM
-* Email notification received 📧
+* **Producer** → sends message
+* **Queue** → holds message
+* **Consumer** → processes message
 
 ---
 
-## 🔹 Step 6: Create Dashboard 📊
+# 🔥 Why SQS is Important?
 
-1. Go to CloudWatch → Dashboards
-2. Add:
-
-   * CPUUtilization graph
-   * Network traffic
-
-👉 You now have real-time monitoring
+* Decouples services
+* Handles traffic spikes
+* Improves reliability
+* Prevents system crashes
 
 ---
 
-## 🔹 Step 7: Enable Logs (Advanced Demo)
+# 🧠 Real-Life Example
 
-Install CloudWatch Agent:
+👉 E-commerce order system:
 
-```bash id="ql5q5d"
-sudo yum install amazon-cloudwatch-agent -y
+* User places order
+* App sends message to SQS
+* Worker processes:
+
+  * Payment
+  * Email
+  * Inventory
+
+🔥 Even if system is busy → no data loss
+
+---
+
+# Hands-on Demo: AWS CloudWatch Logs + Monitoring + + Cloud watch Alarm + SNS
+
+### Step 0: Prerequisites
+ - AWS account
+ - EC2 instance (or ECS/EKS app) already running
+ - IAM Role with permissions:
+     - CloudWatchAgentServerPolicy
+     - CloudWatchLogsFullAccess
+  
+### Step 1: Install the CloudWatch Agent
+ - For Amazon Linux 2, CentOS, or RHEL
+```sh
+sudo yum install amazon-cloudwatch-agent
+```
+ - For Ubuntu/Debian:
+ ```sh
+ sudo apt-get install amazon-cloudwatch-agent
+ ```
+ - For Windows, download the agent MSI from AWS documentation.
+  https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/download-CloudWatch-Agent-on-EC2-Instance-commandline-first.html
+
+### setp 2: Create a CloudWatch Agent Configuration File
+Create a file with the foloowing code to this location  ```/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json```
+```sh
+{
+  "metrics": {
+    "metrics_collected": {
+      "mem": {
+        "measurement": [
+          "mem_used_percent",
+          "mem_available",
+          "mem_total"
+        ],
+        "metrics_collection_interval": 60
+      }
+    }
+  }
+}
 ```
 
-Configure:
+### Step 3: Configure IAM Role for the EC2 Instance
+ -  First create a policy with the following permission for ec2
+ ```sh
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudwatch:PutMetricData",
+        "ssm:ListCommandInvocations",
+        "ssm:ListCommands",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents",
+        "logs:CreateLogGroup"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
+ -  Second create a role for ec2 with this policy
+ -  Third, attach this role to the ec2
 
-* Collect system logs
-* Push to CloudWatch Logs
+### Step 4: Start the CloudWatch Agent
+```sh
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl \
+-a fetch-config \
+-m ec2 \
+-c file:/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json \
+-s
+```
 
-👉 Centralized logging system
+### Step 5:Verify the Metrics in CloudWatch
+•	Go to the CloudWatch Console > All metrics > CWAgent > host > 
+ 	You should see the memory metrics like mem_used_percent, mem_available, and mem_total.
 
----
 
-# 🧠 Real-World Use Cases
+### Stop the CloudWatch Agent
+```sh
+sudo systemctl stop amazon-cloudwatch-agent
+```
 
-* Monitor production servers
-* Alert when app crashes
-* Track API performance
-* Debug logs centrally
+# Alerm create in cloud watch
+
+CloudWatch > Alarms > Create Alearm > Click Select metric > Copy your ec2 intance id and search it from alearm > Select Per-Instance Metrics > Select CPUUtilization > 
+Click select metric > keep everything same just put 95 in Define the threshold value > Next > in Notification choose your exesting sNS topic >
+Click EC2 action > Select Stop this instanc > give a name if alearm > Next > Click Create Alearm 
+
+### Now run the script in cloud shell
+```sh
+aws cloudwatch set-alarm-state --alarm-name private_ec2_cpu_use_high1 --state-value ALARM --state-reason "Testing"
+```
+NB: Just change your alarm name in this script
