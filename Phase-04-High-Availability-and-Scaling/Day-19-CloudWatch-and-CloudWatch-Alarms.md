@@ -25,7 +25,48 @@ It helps you:
 👉 Used by every DevOps Engineer in production
 
 ---
+# SNS (Simple Notification Service)
+---
+# What is SNS?
 
+**Amazon Simple Notification Service (SNS)** is a **fully managed messaging service** in
+**Amazon Web Services**.
+
+👉 It is used to:
+
+* Send notifications 📩
+* Trigger automation ⚙️
+* Connect multiple services
+
+---
+
+# 🎯 Key Concept (Very Important)
+
+### 📡 Pub/Sub Model
+
+* **Publisher** → sends message
+* **Topic** → message channel
+* **Subscriber** → receives message
+
+👉 Example:
+
+```id="s9a7hp"
+CloudWatch → SNS Topic → Email / SMS / Lambda
+```
+
+---
+
+# 🔥 Why SNS is Important?
+
+* Real-time alerts 🚨
+* Decoupled architecture
+* Scalable messaging
+* Works with many AWS services
+
+---
+
+
+---
 # 🏗️ Architecture Overview
 
 ```id="g2i2wx"
