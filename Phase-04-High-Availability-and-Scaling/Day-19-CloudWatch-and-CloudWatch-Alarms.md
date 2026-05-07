@@ -30,56 +30,43 @@ It helps you:
 ```id="g2i2wx"
 EC2 → CloudWatch Metrics → Alarm → SNS → Email Notification
 ```
+---
 
-# 🚀 What is SQS?
+# What is SNS?
 
-**Amazon Simple Queue Service (SQS)** is a **fully managed message queue service** in
+**Amazon Simple Notification Service (SNS)** is a **fully managed messaging service** in
 **Amazon Web Services**.
 
-👉 It allows systems to:
+👉 It is used to:
 
-* Send messages 📩
-* Store them in a queue
-* Process them later (asynchronously)
+* Send notifications 📩
+* Trigger automation ⚙️
+* Connect multiple services
 
 ---
 
 # 🎯 Key Concept (Very Important)
 
-## 📦 Queue-Based Architecture
+### 📡 Pub/Sub Model
 
-```id="j55c1g"
-Producer (App) → SQS Queue → Consumer (Worker)
+* **Publisher** → sends message
+* **Topic** → message channel
+* **Subscriber** → receives message
+
+👉 Example:
+
+```id="s9a7hp"
+CloudWatch → SNS Topic → Email / SMS / Lambda
 ```
 
-* **Producer** → sends message
-* **Queue** → holds message
-* **Consumer** → processes message
-
 ---
 
-# 🔥 Why SQS is Important?
+# 🔥 Why SNS is Important?
 
-* Decouples services
-* Handles traffic spikes
-* Improves reliability
-* Prevents system crashes
-
----
-
-# 🧠 Real-Life Example
-
-👉 E-commerce order system:
-
-* User places order
-* App sends message to SQS
-* Worker processes:
-
-  * Payment
-  * Email
-  * Inventory
-
-🔥 Even if system is busy → no data loss
+* Real-time alerts 🚨
+* Decoupled architecture
+* Scalable messaging
+* Works with many AWS services
 
 ---
 
