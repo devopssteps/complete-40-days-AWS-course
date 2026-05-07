@@ -1,4 +1,4 @@
-# Day-19: CloudWatch and CloudWatch Alarms with hands on
+# Day-20: AWS CloudWatch Logs + Monitoring + Cloud watch Alarm + SNS with hands on
 
 # 🚀 What is CloudWatch?
 
@@ -45,32 +45,7 @@ EC2 → CloudWatch Metrics → Alarm → SNS → Email Notification
 
 ---
 
-# 🎯 Key Concept (Very Important)
-
-### 📡 Pub/Sub Model
-
-* **Publisher** → sends message
-* **Topic** → message channel
-* **Subscriber** → receives message
-
-👉 Example:
-
-```id="s9a7hp"
-CloudWatch → SNS Topic → Email / SMS / Lambda
-```
-
----
-
-# 🔥 Why SNS is Important?
-
-* Real-time alerts 🚨
-* Decoupled architecture
-* Scalable messaging
-* Works with many AWS services
-
----
-
-# Hands-on Demo: AWS CloudWatch Logs + Monitoring + + Cloud watch Alarm + SNS
+# Hands-on Demo: AWS CloudWatch Logs + Monitoring + Cloud watch Alarm + SNS
 
 ### Step 0: Prerequisites
  - AWS account
