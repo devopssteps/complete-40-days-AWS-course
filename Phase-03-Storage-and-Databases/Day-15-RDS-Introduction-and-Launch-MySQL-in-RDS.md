@@ -205,11 +205,6 @@ mysql -h ENDPOINT -u admin -p
  - ✔ Backend database
  - ✔ Production systems
 
-Used with:
-
-* Docker
-* Kubernetes
-
 ---
 
 # 🔟 Common Mistakes
@@ -221,8 +216,6 @@ Used with:
 ---
 
 # 1️⃣1️⃣ Summary
-
-👉 Say clearly:
 
 * RDS = managed database
 * MySQL = engine
