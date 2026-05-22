@@ -335,9 +335,5 @@ For real production:
  - ✔ Learned database cost optimization
 
 ---
-
-# 🎬 Final Line
-
 > “Self-managed MySQL on EC2 is an excellent way to learn database administration and reduce cloud costs.”
-
 ---
