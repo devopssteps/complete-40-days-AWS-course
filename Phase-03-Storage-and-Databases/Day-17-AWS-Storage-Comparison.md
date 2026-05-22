@@ -168,8 +168,6 @@ aws s3 ls s3://my-demo-bucket-12345
 
 # 7️⃣ Architecture Example (Explain Visually)
 
-👉 Say in video:
-
 * EC2 + EBS → OS + DB
 * EC2 + EFS → shared files
 * S3 → backup + static content
@@ -193,8 +191,6 @@ aws s3 ls s3://my-demo-bucket-12345
 ---
 
 # 🔟 Summary 
-
-👉 Say this clearly:
 
 * EBS = Single server disk
 * EFS = Shared file system
