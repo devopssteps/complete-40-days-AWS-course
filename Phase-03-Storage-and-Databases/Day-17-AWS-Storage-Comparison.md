@@ -1,4 +1,4 @@
-# Day-16: AWS Storage Comparison | EBS vs EFS vs S3 (Hands-on Demo)
+# Day-17: AWS Storage Comparison | EBS vs EFS vs S3 (Hands-on Demo)
 
 ---
 
