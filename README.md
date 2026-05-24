@@ -36,18 +36,18 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 13     | S3 Deep Dive, S3 Versioning, Lifecycle Policy                                                    |
 | Day 14     | S3 Static Website Hosting                     |
 | Day 15     | RDS Introduction, Launch MySQL/Postgres in RDS                                                      |
-| Day 16     | EFS (Elastic File System) with hands on demo   |
-
+| Day 16     | MySql install on ec2 with hands on demo   |
+| Day 17     | EFS (Elastic File System) with hands on demo   |
 
 
 ## 🔹 PHASE 4 — High Availability & Scaling
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 17     | Auto Scaling Groups                                                    |
-| Day 18     | Launch Templates, Multi-AZ Architecture                     |
-| Day 19     | CloudWatch and CloudWatch Alarms with hands on                                                      |
-| Day 20     | SNS (Simple Notification Service)                                                    |
-| Day 21     | SQS (Simple Queue Service)                     |
+| Day 18     | Auto Scaling Groups                                                    |
+| Day 19     | Launch Templates, Multi-AZ Architecture                     |
+| Day 20     | SNS (Simple Notification Service)                                                  |
+| Day 21     | CloudWatch Alarms with hands on   |
+| Day 22     | SQS (Simple Queue Service)                     |
 
 
 ## 🔹 PHASE 5 — Serverless & Modern AWS
