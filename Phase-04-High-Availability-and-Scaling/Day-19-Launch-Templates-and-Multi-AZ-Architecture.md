@@ -1,4 +1,4 @@
-# Day-18: Launch Templates & Multi-AZ Architecture 
+# Day-19: Launch Templates & Multi-AZ Architecture 
  
 ## 🔹 What is a Launch Template?
 
