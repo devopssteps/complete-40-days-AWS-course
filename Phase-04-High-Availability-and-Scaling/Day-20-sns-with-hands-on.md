@@ -1,4 +1,4 @@
-# SNS (Simple Notification Service)
+# Day-20: SNS (Simple Notification Service)
 ---
 # What is SNS?
 
