@@ -1,4 +1,4 @@
-# SQS with hands on demo
+# Day-22: SQS with hands on demo
 
 # 🚀 What is SQS?
 
