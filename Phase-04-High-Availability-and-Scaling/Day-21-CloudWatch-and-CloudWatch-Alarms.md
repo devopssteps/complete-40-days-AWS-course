@@ -1,4 +1,4 @@
-# Day-20: AWS CloudWatch Logs + Monitoring + Cloud watch Alarm + SNS with hands on
+# Day-21: AWS CloudWatch Logs + Monitoring + Cloud watch Alarm + SNS with hands on
 
 # 🚀 What is CloudWatch?
 
