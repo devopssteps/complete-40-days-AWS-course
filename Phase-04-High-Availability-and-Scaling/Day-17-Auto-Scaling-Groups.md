@@ -1,4 +1,4 @@
-# Day-17: AWS Auto Scaling Groups (ASG) 
+# Day-18: AWS Auto Scaling Groups (ASG) 
 
 ### ✅ What is Auto Scaling Group?
 
