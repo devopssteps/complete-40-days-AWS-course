@@ -157,7 +157,7 @@ Server running in AZ: ap-south-1b
 
 ---
 
-## 🔹 Step 7: Simulate Failure (Important Demo)
+## 🔹 Step 7: Simulate Failure 
 
 * Stop one instance manually
 
@@ -165,17 +165,6 @@ Server running in AZ: ap-south-1b
 
 * ASG launches new instance automatically
 * Traffic still works (no downtime)
-
----
-
-# 🎥 Pro Recording Tips
-
-* Show:
-
-  * Instances in different AZs
-  * Load balancer switching responses
-  * Instance termination + auto recovery
-* Highlight AZ names clearly
 
 ---
 
