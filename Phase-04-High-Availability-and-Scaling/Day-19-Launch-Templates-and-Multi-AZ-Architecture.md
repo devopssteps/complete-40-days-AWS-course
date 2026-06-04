@@ -78,12 +78,19 @@ Go to EC2 → Launch Templates → Create
 
 ```bash id="bgd1pl"
 #!/bin/bash
-yum update -y
-yum install -y httpd
-systemctl start httpd
-systemctl enable httpd
+sudo yum update -y
+sudo yum install -y httpd
 
-echo "Server running in AZ: $(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone)" > /var/www/html/index.html
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
+TOKEN=$(curl -X PUT "http://169.254.169.254/latest/api/token" \
+-H "X-aws-ec2-metadata-token-ttl-seconds: 21600" -s)
+
+AZ=$(curl -H "X-aws-ec2-metadata-token: $TOKEN" \
+-s http://169.254.169.254/latest/meta-data/placement/availability-zone)
+
+echo "<h1>Server running in AZ: $AZ</h1>" > /var/www/html/index.html
 ```
 
 👉 This shows which AZ your instance is running in.
