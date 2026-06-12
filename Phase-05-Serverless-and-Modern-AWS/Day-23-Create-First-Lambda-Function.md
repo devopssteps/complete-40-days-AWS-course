@@ -1,14 +1,5 @@
 # Create Your First AWS Lambda Function 
 
-Create-First-Lambda-Function.md
-in
-main
-
-Edit
-
-Preview
-Indent mode
-
 ## 🔹 What is Lambda?
 
 **AWS Lambda** is a service from
