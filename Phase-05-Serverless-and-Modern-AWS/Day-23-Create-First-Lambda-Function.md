@@ -135,3 +135,4 @@ def lambda_handler(event, context):
 * Automate DevOps tasks
 
 ---
+### Next Topic : API Gateway + Lambda with hands on demo 
