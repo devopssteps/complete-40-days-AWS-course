@@ -53,10 +53,9 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ## 🔹 PHASE 5 — Serverless & Modern AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 22     | Lambda Introduction                                                    |
-| Day 23     | Create First Lambda Function                    |
-| Day 24     | API Gateway                                                     |
-| Day 25     | Lambda + API Gateway Integration, Event-Driven Architecture, Step Functions Overview   |
+| Day 23     | Lambda Introduction & Create First Lambda Function                                |
+| Day 24     | API Gateway with hnads on demo                                                    |
+| Day 25     | AWS Project: S3 Upload → Lambda → SNS Notification                                |
 
 
 
