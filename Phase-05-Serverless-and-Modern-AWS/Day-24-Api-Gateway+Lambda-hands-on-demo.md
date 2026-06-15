@@ -1,4 +1,4 @@
-# API Gateway + AWS Lambda — how they work together, and a hands-on demo you can follow.
+# API Gateway + AWS Lambda — Hands-on demo 
 
 ![API GateWay](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-05-Serverless-and-Modern-AWS/api-gateway-with-lambda.png)
 
