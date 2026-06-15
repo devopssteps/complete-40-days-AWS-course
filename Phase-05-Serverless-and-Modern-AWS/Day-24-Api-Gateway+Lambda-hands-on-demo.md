@@ -114,30 +114,6 @@ Setting:
   * Add pring(event) in function
   * Now browse it and then go to monitor and check cloudwatch log
 
-### Step 4 — Create Routes & Connect Lambda
-
-**Create `/hello` GET route:**
-
-1. Click **Actions → Create Resource**
-   - Resource name: `hello`
-   - Resource path: `/hello`
-   - Click **Create Resource**
-
-2. With `/hello` selected → **Actions → Create Method → GET**
-3. Settings:
-   - Integration type: **Lambda Function**
-   - Use Lambda Proxy integration: ✅ **checked** (important!)
-   - Lambda function: `myApiHandler`
-4. Click **Save** → **OK** to grant permissions
-
-**Create `/echo` POST route:**
-
-1. Select `/hello` resource → **Actions → Create Resource**
-   - Name: `echo`, path: `/echo`
-2. Select `/echo` → **Actions → Create Method → POST**
-3. Same settings as above → **Save**
-
----
 
 
 
