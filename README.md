@@ -53,8 +53,8 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ## 🔹 PHASE 5 — Serverless & Modern AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 23     | Lambda Introduction & Create First Lambda Function                                |
-| Day 24     | API Gateway with hnads on demo                                                    |
+| Day 23     | Lambda Introduction & Hands on demo Create First Lambda Function                  |
+| Day 24     | API Gateway  + Lambda Hands on demo                                               |
 | Day 25     | AWS Project: S3 Upload → Lambda → SNS Notification                                |
 
 
@@ -62,10 +62,10 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ## 🔹 PHASE 6 — Containers & Kubernetes
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 26     | Docker Basics                                                  |
-| Day 27     | ECR (Elastic Container Registry)           |
-| Day 28     | ECS Overview and Deploy App on ECS Fargate                                                     |
-| Day 29     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS   |
+| Day 26     | Docker Basics                                                                     |
+| Day 27     | ECR (Elastic Container Registry)                                                  |
+| Day 28     | ECS Overview and Deploy App on ECS Fargate                                        |
+| Day 29     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS               |
 
 
 ## 🔹 PHASE 7 — DevOps on AWS
