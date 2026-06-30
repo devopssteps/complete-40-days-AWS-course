@@ -57,36 +57,39 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 24     | API Gateway  + Lambda Hands on demo                                               |
 | Day 25     | AWS Project: S3 Upload → Lambda → SNS Notification                                |
 
-
-
-## 🔹 PHASE 6 — Containers & Kubernetes
+## 🔹 PHASE 6 — DNS & Traffic Management
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 26     | Docker Basics                                                                     |
-| Day 27     | ECR (Elastic Container Registry)                                                  |
-| Day 28     | ECS Overview and Deploy App on ECS Fargate                                        |
-| Day 29     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS               |
+| Day 26     | AWS Route 53 Tutorial With Practical Example                  |
 
-
-## 🔹 PHASE 7 — DevOps on AWS
+## 🔹 PHASE 7 — Containers & Kubernetes
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 30     | CodeCommit with hands on lab                                                 |
-| Day 31     | CodeBuild with hands on lab           |
-| Day 32     | CodeDeploy with hands on lab                                                      |
-| Day 33     | CodePipeline with hands on lab    |
-| Day 34     | CI/CD Pipeline Demo                                                  |
-| Day 35     | Infrastructure as Code (CloudFormation)          |
-| Day 36     | Terraform on AWS                                                     |
-| Day 37     | AWS CloudTrail   |
-| Day 38     | AWS Secrets Manager, WAF (Web Application Firewall), GuardDuty   |
+| Day 27     | Docker Basics                                                                     |
+| Day 28     | ECR (Elastic Container Registry)                                                  |
+| Day 29     | ECS Overview and Deploy App on ECS Fargate                                        |
+| Day 30     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS               |
 
 
-## 🔹 PHASE 8 — Real-World Projects
+## 🔹 PHASE 8 — DevOps on AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 39     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
-| Day 40     | Project 2: Containerized App on EKS          |
+| Day 31     | CodeCommit with hands on lab                                                 |
+| Day 32     | CodeBuild with hands on lab           |
+| Day 33     | CodeDeploy with hands on lab                                                      |
+| Day 34     | CodePipeline with hands on lab    |
+| Day 35     | CI/CD Pipeline Demo                                                  |
+| Day 36     | Infrastructure as Code (CloudFormation)          |
+| Day 37     | Terraform on AWS                                                     |
+| Day 38     | AWS CloudTrail   |
+| Day 39     | AWS Secrets Manager, WAF (Web Application Firewall), GuardDuty   |
+
+
+## 🔹 PHASE 9 — Real-World Projects
+| Day        | Topic                                                                             |
+| ---------- | --------------------------------------------------------------------------------- |
+| Day 40     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
+| Day 41     | Project 2: Containerized App on EKS          |
 
 
 
