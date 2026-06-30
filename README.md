@@ -8,46 +8,46 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ### Git repo: https://github.com/devopssteps/complete-40-days-AWS-course/
 
 ## 🔹 PHASE 1 — Cloud & AWS Foundations
-| Day        | Topic                                                                             |
-| ---------- | --------------------------------------------------------------------------------- |
-| Day 0      | Course Outline                      |
-| Day 01     | Cloud Computing Basics ( IaaS vs PaaS vs SaaS, Public vs Private vs Hybrid Cloud )                                                   |
-| Day 02     | AWS Introduction (Free Tier, Create AWS Account, MFA Setup, Budget setup, Regions & AZ)                     |
-| Day 03     | IAM Deep Dive with hands on lab (IAM Users, Groups, Policies)                                                      |
-| Day 04     | AWS CLI Setup, Configure AWS CLI, Basic CLI Commands                                                         |
-| Day 05     | Key Pairs, Security Groups, Connect via SSH, Launch EC2 Instance, EC2 Pricing & Instance Types                        |
-| Day 06     | EBS (Elastic Block Store), Attach & Mount Volume            |
-| Day 07     | EFS (Elastic File System) hands on             |
-| Day 08     | AMI (Amazon Machine Image), Create Custom AMI            |
+| Day        | Topic                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------ |
+| Day 0      | Course Outline                                                                                   |
+| Day 01     | Cloud Computing Basics ( IaaS vs PaaS vs SaaS, Public vs Private vs Hybrid Cloud )               |
+| Day 02     | AWS Introduction (Free Tier, Create AWS Account, MFA Setup, Budget setup, Regions & AZ)          |
+| Day 03     | IAM Deep Dive with hands on lab (IAM Users, Groups, Policies)                                    |
+| Day 04     | AWS CLI Setup, Configure AWS CLI, Basic CLI Commands                                             |
+| Day 05     | Key Pairs, Security Groups, Connect via SSH, Launch EC2 Instance, EC2 Pricing & Instance Types   |
+| Day 06     | EBS (Elastic Block Store), Attach & Mount Volume                                                 |
+| Day 07     | EFS (Elastic File System) hands on                                                               |
+| Day 08     | AMI (Amazon Machine Image), Create Custom AMI                                                    |
 
 
 ## 🔹 PHASE 2 — Networking 
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 09     | VPC Fundamentals                                                   |
-| Day 10     | AWS Firewall and Elastic IP                     |
-| Day 11     | VPC Peering                                                      |
-| Day 12     | AWS Load Balancer (ALB, NLB)                                                         |
+| Day 09     | VPC Fundamentals                                                                  |
+| Day 10     | AWS Firewall and Elastic IP                                                       |
+| Day 11     | VPC Peering                                                                       |
+| Day 12     | AWS Load Balancer (ALB, NLB)                                                      |
 
 
 ## 🔹 PHASE 3 — Storage & Databases
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 13     | S3 Deep Dive, S3 Versioning, Lifecycle Policy                                                    |
-| Day 14     | S3 Static Website Hosting                     |
-| Day 15     | RDS Introduction, Launch MySQL/Postgres in RDS                                                      |
-| Day 16     | MySql install on ec2 with hands on demo   |
-| Day 17     | EFS (Elastic File System) with hands on demo   |
+| Day 13     | S3 Deep Dive, S3 Versioning, Lifecycle Policy                                     |
+| Day 14     | S3 Static Website Hosting                                                         |
+| Day 15     | RDS Introduction, Launch MySQL/Postgres in RDS                                    |
+| Day 16     | MySql install on ec2 with hands on demo                                           |
+| Day 17     | EFS (Elastic File System) with hands on demo                                      |
 
 
 ## 🔹 PHASE 4 — High Availability & Scaling
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 18     | Auto Scaling Groups                                                    |
-| Day 19     | Launch Templates, Multi-AZ Architecture                     |
-| Day 20     | SNS (Simple Notification Service)                                                  |
-| Day 21     | CloudWatch Alarms with hands on   |
-| Day 22     | SQS (Simple Queue Service)                     |
+| Day 18     | Auto Scaling Groups                                                               |
+| Day 19     | Launch Templates, Multi-AZ Architecture                                           |
+| Day 20     | SNS (Simple Notification Service)                                                 |
+| Day 21     | CloudWatch Alarms with hands on                                                   |
+| Day 22     | SQS (Simple Queue Service)                                                        |
 
 
 ## 🔹 PHASE 5 — Serverless & Modern AWS
