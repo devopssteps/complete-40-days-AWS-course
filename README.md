@@ -60,7 +60,7 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ## 🔹 PHASE 6 — DNS & Traffic Management
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 26     | AWS Route 53 Tutorial With Practical Example                  |
+| Day 26     | AWS Route 53 Tutorial With Hands on demo                                          |
 
 ## 🔹 PHASE 7 — Containers & Kubernetes
 | Day        | Topic                                                                             |
