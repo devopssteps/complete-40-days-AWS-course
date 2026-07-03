@@ -56,40 +56,41 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 23     | Lambda Introduction & Hands on demo Create First Lambda Function                  |
 | Day 24     | API Gateway  + Lambda Hands on demo                                               |
 | Day 25     | AWS Project: S3 Upload → Lambda → SNS Notification                                |
+| Day 26     | Elastic Beanstalk Explain with hnads on demo                                      |
 
 ## 🔹 PHASE 6 — DNS & Traffic Management
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 26     | AWS Route 53 Tutorial With Hands on demo                                          |
+| Day 27     | AWS Route 53 Tutorial With Hands on demo                                          |
 
 ## 🔹 PHASE 7 — Containers & Kubernetes
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 27     | Docker Basics                                                                     |
-| Day 28     | ECR (Elastic Container Registry)                                                  |
-| Day 29     | ECS Overview and Deploy App on ECS Fargate                                        |
-| Day 30     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS               |
+| Day 28     | Docker Basics                                                                     |
+| Day 29     | ECR (Elastic Container Registry)                                                  |
+| Day 30     | ECS Overview and Deploy App on ECS Fargate                                        |
+| Day 31     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS               |
 
 
 ## 🔹 PHASE 8 — DevOps on AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 31     | CodeCommit with hands on lab                                                 |
-| Day 32     | CodeBuild with hands on lab           |
-| Day 33     | CodeDeploy with hands on lab                                                      |
-| Day 34     | CodePipeline with hands on lab    |
-| Day 35     | CI/CD Pipeline Demo                                                  |
-| Day 36     | Infrastructure as Code (CloudFormation)          |
-| Day 37     | Terraform on AWS                                                     |
-| Day 38     | AWS CloudTrail   |
-| Day 39     | AWS Secrets Manager, WAF (Web Application Firewall), GuardDuty   |
+| Day 32     | CodeCommit with hands on lab                                                 |
+| Day 33     | CodeBuild with hands on lab           |
+| Day 34     | CodeDeploy with hands on lab                                                      |
+| Day 35     | CodePipeline with hands on lab    |
+| Day 36     | CI/CD Pipeline Demo                                                  |
+| Day 37     | Infrastructure as Code (CloudFormation)          |
+| Day 38     | Terraform on AWS                                                     |
+| Day 39     | AWS CloudTrail   |
+| Day 40     | AWS Secrets Manager, WAF (Web Application Firewall), GuardDuty   |
 
 
 ## 🔹 PHASE 9 — Real-World Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 40     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
-| Day 41     | Project 2: Containerized App on EKS          |
+| Day 41     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
+| Day 42     | Project 2: Containerized App on EKS          |
 
 
 
