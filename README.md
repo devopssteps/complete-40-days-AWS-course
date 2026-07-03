@@ -56,7 +56,7 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 23     | Lambda Introduction & Hands on demo Create First Lambda Function                  |
 | Day 24     | API Gateway  + Lambda Hands on demo                                               |
 | Day 25     | AWS Project: S3 Upload → Lambda → SNS Notification                                |
-| Day 26     | Elastic Beanstalk Explain with hnads on demo                                      |
+| Day 26     | Elastic Beanstalk Explain with hands on demo                                      |
 
 ## 🔹 PHASE 6 — DNS & Traffic Management
 | Day        | Topic                                                                             |
