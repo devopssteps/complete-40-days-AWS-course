@@ -1,6 +1,12 @@
 # ECR & ECS explain with Hands on
 
 ### 1. Create an ECR Repository
+### 🔑 Prerequisites
+ - AWS CLI installed (aws --version)
+ - Docker installed (docker --version)
+ - Configured AWS CLI credentials (aws configure) with permissions for ECR
+
+### Create ECR 
  - Console → ECR → Create Repository → Name: my-app-repo.
  - Or via CLI:
 ```sh
