@@ -10,7 +10,11 @@ Elastic Beanstalk (EB) is AWS's Platform-as-a-Service (PaaS). You give it your a
 
 ## First we will see the deployment from web console
 
-### Step 1: Create a folder and inside that folder Create these following 2 files 
+### Step 1: Create Your Application 
+Create a folder and inside that folder Create these following 2 files 
+```sh
+mkdir my-beanstalk-app && cd my-beanstalk-app
+```
 ---
 ```app.js```
 ```sh
