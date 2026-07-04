@@ -189,6 +189,23 @@ eb --version
 
 ### Step 2 — Initialize Elastic Beanstalk
 
+```sh
+# 6. Initialise EB (run from inside hello-node folder)
+eb init my-beanstalk-app \
+  --platform "Node.js 20 running on 64bit Amazon Linux 2023" \
+  --region us-east-2
+
+# 7. Create environment AND deploy code in one command
+eb create my-app-env \
+  --instance-type t3.micro \
+  --single
+
+# This takes 3-5 minutes. Watch for "Successfully launched environment"
+
+# 8. Open the live website in your browser
+eb open
+```
+## OR
 ```bash
 eb init
 ```
