@@ -102,7 +102,7 @@ You need Node.js installed. Check with `node -v` — if nothing shows, download 
 
 ```bash
 # 1. Enter the folder
-cd hello-node
+cd my-beanstalk-app
 
 # 2. Start the server
 npm start
