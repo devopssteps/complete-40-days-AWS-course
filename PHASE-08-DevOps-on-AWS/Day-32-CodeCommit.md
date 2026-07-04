@@ -1,204 +1,135 @@
-# 🚀 What is CI/CD Pipeline?
+# 🚀 What is AWS CodeCommit?
 
-👉 CI/CD = **Continuous Integration + Continuous Deployment**
+**AWS CodeCommit** is a **fully managed Git repository service** from
+**Amazon Web Services**.
 
-* **CI** → Build & test code automatically
-* **CD** → Deploy code automatically
+👉 It is similar to:
 
----
-
-# 🎯 AWS CI/CD Pipeline Overview
-
-We will use:
-
-* AWS CodeCommit → Store code
-* AWS CodeBuild → Build
-* AWS CodeDeploy → Deploy
-* AWS CodePipeline → Orchestrate
+* GitHub
+* GitLab
 
 ---
 
-# 🏗️ Architecture (Real DevOps Flow)
+# 🎯 Key Idea
 
-```id="cicd1"
-Developer → CodeCommit → CodeBuild → CodeDeploy → EC2 → Live Website
-```
+👉 Store your code securely in AWS
+
+👉 Developers can:
+
+* Push code
+* Pull code
+* Collaborate
+
+---
+
+# 🔥 Why CodeCommit is Important?
+
+* Private Git repos (secure)
+* Integrated with AWS services
+* No need external tools
+* Perfect for CI/CD pipelines
 
 ---
 
 # 🧪 Hands-On Demo (Step-by-Step)
 
-## 🔹 Step 1: Launch EC2 Server
+## 🔹 Step 1: Create Repository
+
+1. Go to CodeCommit
+2. Click **Create Repository**
+
+### Fill:
+
+* Name: `devops-repo`
+* Description: DevOps demo repo
+
+---
+
+## 🔹 Step 2: Setup Git Credentials
+
+👉 Go to IAM → Users → Security Credentials
+
+* Generate HTTPS Git credentials
+
+---
+
+## 🔹 Step 3: Clone Repository
+
+On your local machine:
+
+```bash id="cc1"
+git clone https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/devops-repo
+cd devops-repo
+```
+
+---
+
+## 🔹 Step 4: Add Code
+
+Create file:
+
+```bash id="cc2"
+echo "Hello from CodeCommit 🚀" > index.html
+```
+
+---
+
+## 🔹 Step 5: Commit & Push
+
+```bash id="cc3"
+git add .
+git commit -m "Initial commit"
+git push
+```
+
+👉 Now code is stored in CodeCommit
+
+---
+
+## 🔹 Step 6: Verify in Console
+
+* Go back to CodeCommit
+* Open repo
+
+👉 You’ll see your file 🎉
+
+---
+
+# 🚀 Advanced Demo (DevOps Flow)
+
+## 🔹 Integrate with CI/CD
 
 Use:
-👉 Amazon EC2
 
-* Amazon Linux 2
-* Open ports: 22, 80
+* AWS CodePipeline
+* AWS CodeBuild
 
 ---
 
-## 🔹 Step 2: Install CodeDeploy Agent
+## 🔹 Real Flow:
 
-```bash id="cicd2"
-sudo yum update -y
-sudo yum install ruby -y
-sudo yum install wget -y
-
-cd /home/ec2-user
-wget https://aws-codedeploy-ap-south-1.s3.ap-south-1.amazonaws.com/latest/install
-chmod +x ./install
-sudo ./install auto
-
-sudo service codedeploy-agent start
+```id="ccflow"
+Developer → CodeCommit → CodePipeline → Build → Deploy
 ```
 
 ---
 
-## 🔹 Step 3: Prepare Code Repository
+## 🔹 Example Use Case
 
-Use:
-👉 AWS CodeCommit
+👉 Laravel / Node.js project:
 
-### 📄 index.html
+* Push code → CodeCommit
+* Pipeline triggers → Deploy automatically
 
-```html id="cicd3"
-<h1>Welcome to DevOps CI/CD Pipeline 🚀</h1>
-```
-
----
-
-### 📄 buildspec.yml
-
-```yaml id="cicd4"
-version: 0.2
-
-phases:
-  build:
-    commands:
-      - echo "Building project..."
-
-artifacts:
-  files:
-    - '**/*'
-```
-
----
-
-### 📄 appspec.yml
-
-```yaml id="cicd5"
-version: 0.0
-os: linux
-
-files:
-  - source: /
-    destination: /var/www/html
-
-hooks:
-  ApplicationStart:
-    - location: scripts/start.sh
-      timeout: 300
-      runas: root
-```
-
----
-
-### 📄 scripts/start.sh
-
-```bash id="cicd6"
-#!/bin/bash
-yum install -y httpd
-systemctl start httpd
-systemctl enable httpd
-```
-
----
-
-## 🔹 Step 4: Create CodeBuild Project
-
-Use:
-👉 AWS CodeBuild
-
-* Source: CodeCommit
-* Use `buildspec.yml`
-
----
-
-## 🔹 Step 5: Setup CodeDeploy
-
-Use:
-👉 AWS CodeDeploy
-
-* Create Application
-* Create Deployment Group
-* Select EC2 instance
-
----
-
-## 🔹 Step 6: Create CodePipeline 🚀
-
-Use:
-👉 AWS CodePipeline
-
-### Add stages:
-
-1. **Source** → CodeCommit
-2. **Build** → CodeBuild
-3. **Deploy** → CodeDeploy
-
----
-
-## 🔹 Step 7: Run Pipeline
-
-👉 Pipeline triggers automatically
-
----
-
-## 🔍 Observe:
-
-* Code fetched
-* Build executed
-* App deployed
-
----
-
-## 🔹 Step 8: Test Application 🌐
-
-Open EC2 Public IP:
-
-```id="cicd7"
-Welcome to DevOps CI/CD Pipeline 🚀
-```
-
----
-
-## 🔹 Step 9: Auto Deployment Demo (🔥 MUST SHOW)
-
-Change code:
-
-```html id="cicd8"
-<h1>Pipeline Updated Automatically 🔥</h1>
-```
-
-👉 Push to repo
-
----
-
-## 🔥 Result:
-
-* Pipeline auto triggers
-* Website updates automatically
-
-👉 This is **REAL CI/CD**
+🔥 This is real DevOps automation
 
 ---
 
 # 🧠 Real-World Use Cases
 
-* Automated deployments
-* Microservices pipelines
-* Production release automation
-* DevOps workflows
+* Store application code
+* CI/CD pipelines
+* Team collaboration
+* Infrastructure as Code (Terraform)
 
 ---
