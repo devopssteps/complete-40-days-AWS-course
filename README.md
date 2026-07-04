@@ -67,30 +67,29 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
 | Day 28     | Docker Basics                                                                     |
-| Day 29     | ECR (Elastic Container Registry)                                                  |
-| Day 30     | ECS Overview and Deploy App on ECS Fargate                                        |
-| Day 31     | EKS Introduction and Deploy App on EKS, LoadBalancer Service in EKS               |
+| Day 29     | ECR & ECS explain with Hands on                                                   |
+| Day 30     | Deploy Docker App to ECS Fargate with ALB + Auto Scaling                          |
+| Day 31     | EKS Introduction and Deploy App on EKS                                            |
 
 
 ## 🔹 PHASE 8 — DevOps on AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 32     | CodeCommit with hands on lab                                                 |
-| Day 33     | CodeBuild with hands on lab           |
+| Day 32     | CodeCommit with hands on lab                                                      |
+| Day 33     | CodeBuild with hands on lab                                                       |
 | Day 34     | CodeDeploy with hands on lab                                                      |
-| Day 35     | CodePipeline with hands on lab    |
-| Day 36     | CI/CD Pipeline Demo                                                  |
-| Day 37     | Infrastructure as Code (CloudFormation)          |
-| Day 38     | Terraform on AWS                                                     |
-| Day 39     | AWS CloudTrail   |
-| Day 40     | AWS Secrets Manager, WAF (Web Application Firewall), GuardDuty   |
+| Day 35     | CodePipeline with hands on lab                                                    |
+| Day 36     | CI/CD Pipeline Demo                                                               |
+| Day 37     | Infrastructure as Code (CloudFormation)                                           |
+| Day 38     | Terraform on AWS                                                                  |
+| Day 39     | Deploy Full AWS Infrastructure Using Terraform                                    | 
 
 
 ## 🔹 PHASE 9 — Real-World Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 41     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
-| Day 42     | Project 2: Containerized App on EKS          |
+| Day 40     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
+| Day 41     | Project 2: Containerized App on EKS          |
 
 
 
