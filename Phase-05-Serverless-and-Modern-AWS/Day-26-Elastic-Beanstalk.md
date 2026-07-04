@@ -162,8 +162,122 @@ You'll see the "Hello, World!" page. Press `Ctrl + C` to stop it.
 
 ---
 
+# Now deploy from command line
 
+### Step 1 — Install the EB CLI
 
+```bash
+# Mac
+brew install awsebcli
 
+# Linux / WSL
+pip install awsebcli --upgrade --user
 
+# Verify
+eb --version
+```
+---
 
+### Step 2 — Initialize Elastic Beanstalk
+
+```bash
+eb init
+```
+You'll be prompted:
+
+```
+Select a default region: (choose your region, e.g. ap-southeast-1)
+Application Name: my-beanstalk-app
+Platform: Node.js
+Platform branch: Node.js 20 running on 64bit Amazon Linux 2023
+SSH keypair: Yes (select or create one)
+```
+
+This creates a `.elasticbeanstalk/config.yml` file.
+
+---
+### Step 3 — Create the Environment & Deploy
+
+```bash
+# Create environment + deploy in one command
+eb create my-app-env \
+  --instance-type t3.micro \
+  --platform "Node.js 20 running on 64bit Amazon Linux 2023"
+```
+
+This takes 3–5 minutes. Elastic Beanstalk automatically:
+- Creates an EC2 instance
+- Sets up a security group
+- Creates an Application Load Balancer
+- Configures Auto Scaling
+- Assigns a public URL
+
+---
+### Step 4 — Open Your App
+
+```bash
+eb open
+```
+
+This opens your browser at something like:
+```
+http://my-app-env.ap-southeast-1.elasticbeanstalk.com
+```
+
+You'll see your website live on the internet — no server management needed!
+
+---
+
+### Step 5 — Monitor Health & Logs
+
+```bash
+# Check environment health
+eb health
+
+# View live logs
+eb logs
+
+# Stream logs in real time
+eb logs --all
+```
+
+In the AWS console you'll also see the health dashboard with green/yellow/red indicators per instance.
+
+---
+
+### Step 10 — Cleanup (Save your $200 credit!)
+
+```bash
+# Terminate the environment (stops all EC2, ALB billing)
+eb terminate my-app-env
+
+# Delete the application entirely
+eb terminate --all
+```
+
+---
+## 🔑 Key Concepts Summary
+
+| Feature | What EB Does for You |
+|---|---|
+| Deployment | Packages & uploads your code to S3, deploys to EC2 |
+| Load Balancing | Creates & manages an ALB automatically |
+| Auto Scaling | Adds/removes EC2 instances based on traffic |
+| Health Monitoring | Tracks instance health, restarts unhealthy ones |
+| Rolling Updates | Deploys new versions with zero downtime |
+| Environment Variables | Securely injects config without hardcoding |
+| Logs | Aggregates all instance logs to CloudWatch |
+
+---
+
+## 🆚 Elastic Beanstalk vs Alternatives
+
+| | Elastic Beanstalk | EC2 (Manual) | Lambda |
+|---|---|---|---|
+| Server management | AWS | You | None |
+| Scaling | Automatic | Manual | Automatic |
+| Long-running apps | Yes | Yes | No (15 min max) |
+| Cost control | Medium | Full | Per-request |
+| Best for | Web apps, APIs | Full control | Event-driven |
+
+---
