@@ -236,8 +236,13 @@ http://my-app-env.ap-southeast-1.elasticbeanstalk.com
 You'll see your website live on the internet — no server management needed!
 
 ---
-
-### Step 5 — Monitor Health & Logs
+### Step 5 — Update and deploy new version 
+Make your changes to app.js, then just run:
+```sh
+eb deploy
+```
+---
+### Step 6 — Monitor Health & Logs
 
 ```bash
 # Check environment health
@@ -254,7 +259,7 @@ In the AWS console you'll also see the health dashboard with green/yellow/red in
 
 ---
 
-### Step 6 — Cleanup (Save your $200 credit!)
+### Step 7 — Cleanup 
 
 ```bash
 # Terminate the environment (stops all EC2, ALB billing)
