@@ -249,7 +249,7 @@ In the AWS console you'll also see the health dashboard with green/yellow/red in
 
 ---
 
-### Step 10 — Cleanup (Save your $200 credit!)
+### Step 6 — Cleanup (Save your $200 credit!)
 
 ```bash
 # Terminate the environment (stops all EC2, ALB billing)
