@@ -13,6 +13,11 @@ Elastic Beanstalk (EB) is AWS's Platform-as-a-Service (PaaS). You give it your a
 ### Step 1: Create Your Application 
 Create a folder and inside that folder Create these following 2 files 
 ```sh
+hello-node.zip
+  ├── app.js             ← Beanstalk can find these
+  └── package.json
+```
+```sh
 mkdir my-beanstalk-app && cd my-beanstalk-app
 ```
 ---
