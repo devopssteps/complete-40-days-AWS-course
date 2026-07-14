@@ -99,6 +99,48 @@ docker build -t my-python-app .
 docker run my-python-app
 ```
 
+# Install Docker
+# 1. Update your existing list of packages
+sudo apt update && sudo apt upgrade -y
+# 2. Install prerequisite packages that let apt use packages over HTTPS
+sudo apt install -y ca-certificates curl gnupg
+# 3. Add Docker’s official GPG key
+```sh
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://docker.com -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+```
+# 4. Set up the Docker repository
+```sh
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://docker.com \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/etc/apt/sources.list.d/docker.list > /dev/null
+```
+# 5. Update the package index again with Docker packages included
+sudo apt update
+# 6. Install Docker Engine, CLI, and Docker Compose
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+------------------------------
+## Crucial Post-Installation Step (Optional but Recommended)
+By default, you have to use sudo every time you run a docker command. To run Docker commands without sudo, add your user account to the docker group: [5, 6, 7] 
+
+# Add your current user to the docker group
+sudo usermod -aG docker $USER
+# Apply the new group membership immediately (or restart your terminal)
+newgrp docker
+
+## Verify the Installation
+Test that Docker is installed correctly and running by pulling a tiny test image: [8] 
+
+docker run hello-world
+
+If you want, I can show you how to:
+
+* Install Docker Desktop on Windows Subsystem for Linux (WSL2) instead
+* Configure Docker to start automatically on system boot
+* Set up a local Kubernetes cluster using Minikube/Kind over this Docker install
 
 
 
