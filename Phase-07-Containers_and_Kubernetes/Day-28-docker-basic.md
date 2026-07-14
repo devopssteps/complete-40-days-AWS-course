@@ -124,7 +124,7 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 
 ------------------------------
 ## Crucial Post-Installation Step (Optional but Recommended)
-By default, you have to use sudo every time you run a docker command. To run Docker commands without sudo, add your user account to the docker group: [5, 6, 7] 
+By default, you have to use sudo every time you run a docker command. To run Docker commands without sudo, add your user account to the docker group.
 
 # Add your current user to the docker group
 sudo usermod -aG docker $USER
@@ -132,15 +132,10 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 ## Verify the Installation
-Test that Docker is installed correctly and running by pulling a tiny test image: [8] 
+Test that Docker is installed correctly and running by pulling a tiny test image:
 
 docker run hello-world
 
-If you want, I can show you how to:
-
-* Install Docker Desktop on Windows Subsystem for Linux (WSL2) instead
-* Configure Docker to start automatically on system boot
-* Set up a local Kubernetes cluster using Minikube/Kind over this Docker install
 
 
 
