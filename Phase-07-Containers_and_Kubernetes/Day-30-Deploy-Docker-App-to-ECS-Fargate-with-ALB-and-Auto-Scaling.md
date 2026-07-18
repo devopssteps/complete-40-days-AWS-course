@@ -4,6 +4,13 @@
 We’ll deploy a Dockerized Node.js App on ECS (Fargate) behind an Application Load Balancer (ALB) with Auto Scaling enabled.
 
 ![aws-project](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-07-Containers_and_Kubernetes/ecs-proejct.jpg) 
+![aws-project](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-07-Containers_and_Kubernetes/ecs-proejct-diagram.png) 
+
+Notes: 
+- ECR → ECS: the cluster pulls the container image from ECR when a task starts, so it always runs the exact image you pushed.
+- ALB → tasks: the load balancer spreads incoming requests across whichever tasks are currently running, so no single container gets overwhelmed.
+- Auto Scaling → tasks: this is the "hands-off" piece — it monitors metrics like CPU/request count and scales the task count up or down without you touching anything manually.
+
 
 ### 📌 Step 1: Create a Simple Dockerized App
 ```app.js``` (Node.js example)
