@@ -3,6 +3,9 @@
 ### 🛠 Hands-on Demo Project: Deploy Docker App to ECS Fargate with ALB + Auto Scaling
 We’ll deploy a Dockerized Node.js App on ECS (Fargate) behind an Application Load Balancer (ALB) with Auto Scaling enabled.
 
+# AWS project: Deploy Docker App to ECS Fargate with ALB + Auto Scaling
+![aws-project](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-07-Containers_and_Kubernetes/ecs-proejct.jpg) 
+
 ### 📌 Step 1: Create a Simple Dockerized App
 ```app.js``` (Node.js example)
 ```sh
