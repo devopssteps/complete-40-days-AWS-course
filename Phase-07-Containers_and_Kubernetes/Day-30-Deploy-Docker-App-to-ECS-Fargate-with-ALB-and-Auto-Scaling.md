@@ -89,7 +89,7 @@ docker push <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/ecs-demo:latest
 ```sh
 http://<ALB-DNS-NAME>
 ```
-You should see: Hello from ECS Fargate 🚀
+### You should see: Hello from ECS Fargate 🚀
  3. Run load test with ApacheBench:
 ```sh
 ab -n 10000 -c 200 http://<ALB-DNS-NAME>/
