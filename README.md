@@ -75,21 +75,22 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ## 🔹 PHASE 8 — DevOps on AWS
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 32     | CodeCommit with hands on lab                                                      |
-| Day 33     | CodeBuild with hands on lab                                                       |
-| Day 34     | CodeDeploy with hands on lab                                                      |
-| Day 35     | CodePipeline with hands on lab                                                    |
-| Day 36     | CI/CD Pipeline Demo                                                               |
-| Day 37     | Infrastructure as Code (CloudFormation)                                           |
-| Day 38     | Terraform on AWS                                                                  |
-| Day 39     | Deploy Full AWS Infrastructure Using Terraform                                    | 
+| Day 32     | CICD basic & Expalin AWS DevOps Services                                          |
+| Day 33     | CodeCommit with hands on lab                                                      |
+| Day 34     | CodeBuild with hands on lab                                                       |
+| Day 35     | CodeDeploy with hands on lab                                                      |
+| Day 36     | CodePipeline with hands on lab                                                    |
+| Day 37     | CI/CD Pipeline Demo                                                               |
+| Day 38     | Infrastructure as Code (CloudFormation)                                           |
+| Day 39     | Terraform on AWS                                                                  |
+| Day 40     | Deploy Full AWS Infrastructure Using Terraform                                    | 
 
 
 ## 🔹 PHASE 9 — Real-World Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Day 40     | Project 1: Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
-| Day 41     | Project 2: Containerized App on EKS          |
+| Project-1     | Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
+| Project-2     | Containerized App on EKS          |
 
 
 
