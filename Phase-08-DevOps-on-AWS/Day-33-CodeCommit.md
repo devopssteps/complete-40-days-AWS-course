@@ -133,3 +133,83 @@ Developer → CodeCommit → CodePipeline → Build → Deploy
 * Infrastructure as Code (Terraform)
 
 ---
+
+# Configure the git commit by doing the following setps
+
+```bash
+aws configure
+```
+
+Then:
+
+```bash
+aws sts get-caller-identity
+```
+
+Configure Git:
+
+```bash
+git config --global credential.helper '!aws codecommit credential-helper $@'
+```
+
+```bash
+git config --global credential.UseHttpPath true
+```
+
+Clone:
+
+```bash
+git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/cloudops
+```
+
+Go inside:
+
+```bash
+cd cloudops
+```
+
+Check remote:
+
+```bash
+git remote -v
+```
+
+Check branch:
+
+```bash
+git branch --show-current
+```
+
+Create a file:
+
+```bash
+echo "Hello AWS CodeCommit" > index.html
+```
+
+Check status:
+
+```bash
+git status
+```
+
+Add:
+
+```bash
+git add .
+```
+
+Commit:
+
+```bash
+git commit -m "Add index HTML file"
+```
+
+Push:
+
+```bash
+git push origin main
+```
+
+---
+
+## ⚠️ Important: Don't Run `git init`
