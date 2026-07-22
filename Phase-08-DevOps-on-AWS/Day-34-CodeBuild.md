@@ -1,4 +1,4 @@
-# 🚀 What is AWS CodeBuild?
+# What is AWS CodeBuild?
 
 **AWS CodeBuild** is a **fully managed CI (Continuous Integration) service** from
 **Amazon Web Services**.
@@ -12,7 +12,7 @@
 
 ---
 
-# 🎯 Key Idea
+# Key Idea
 
 👉 Instead of building manually:
 
@@ -22,7 +22,7 @@ Developer → Push Code → CodeBuild → Build & Test → Output
 
 ---
 
-# 🔥 Why CodeBuild is Important?
+# Why CodeBuild is Important?
 
 * No build server needed
 * Auto scaling
