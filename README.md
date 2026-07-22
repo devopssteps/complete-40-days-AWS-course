@@ -81,12 +81,15 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 35     | CodeDeploy with hands on lab                                                      |
 | Day 36     | CodePipeline with hands on lab                                                    |
 | Day 37     | CI/CD Pipeline Demo                                                               |
+
+## 🔹 PHASE 9 — Infrastructure as Code (IaC)
+| Day        | Topic                                                                             |
+| ---------- | --------------------------------------------------------------------------------- |
 | Day 38     | Infrastructure as Code (CloudFormation)                                           |
 | Day 39     | Terraform on AWS                                                                  |
-| Day 40     | Deploy Full AWS Infrastructure Using Terraform                                    | 
+| Day 40     | Deploy Full AWS Infrastructure Using Terraform                                    |
 
-
-## 🔹 PHASE 9 — Real-World Projects
+## 🔹 PHASE 10 — Real-World Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
 | Project-1     | Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
