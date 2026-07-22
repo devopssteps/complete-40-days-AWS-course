@@ -1,4 +1,4 @@
-# 🚀 What is AWS CodeCommit?
+# What is AWS CodeCommit?
 
 **AWS CodeCommit** is a **fully managed Git repository service** from
 **Amazon Web Services**.
@@ -10,7 +10,7 @@
 
 ---
 
-# 🎯 Key Idea
+# Key Idea
 
 👉 Store your code securely in AWS
 
@@ -22,7 +22,7 @@
 
 ---
 
-# 🔥 Why CodeCommit is Important?
+# Why CodeCommit is Important?
 
 * Private Git repos (secure)
 * Integrated with AWS services
@@ -31,7 +31,7 @@
 
 ---
 
-# 🧪 Hands-On Demo (Step-by-Step)
+# Hands-On Demo (Step-by-Step)
 
 ## 🔹 Step 1: Create Repository
 
@@ -69,7 +69,7 @@ cd devops-repo
 Create file:
 
 ```bash id="cc2"
-echo "Hello from CodeCommit 🚀" > index.html
+echo "Hello from CodeCommit" > index.html
 ```
 
 ---
