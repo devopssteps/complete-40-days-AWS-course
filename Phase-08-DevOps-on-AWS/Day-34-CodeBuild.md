@@ -58,17 +58,20 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing dependencies...
+      - echo "Installing dependencies..."
 
   build:
     commands:
-      - echo Build started
-      - mkdir output
-      - cp index.html output/
+      - echo "Build started on `date`"
+      - mkdir -p output
+      - cp index.html output/index.html
+      - echo "Build completed on `date`"
 
 artifacts:
   files:
-    - output/**/*
+    - '**/*'
+  base-directory: output
+  discard-paths: no
 ```
 
 ---
