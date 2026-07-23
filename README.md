@@ -92,8 +92,8 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 ## 🔹 PHASE 10 — Real-World Projects
 | Day        | Topic                                                                             |
 | ---------- | --------------------------------------------------------------------------------- |
-| Project-1     | Deploy Highly Available Web App (EC2 + ALB + ASG)                      |
-| Project-2     | Containerized App on EKS          |
+| Project    | AWS 3-Tier Capstone Project using Terraform + Jenkins CI/CD + Docker and more     |
+
 
 
 
