@@ -1,4 +1,4 @@
-# 🚀 What is AWS CodePipeline?
+# What is AWS CodePipeline?
 
 **AWS CodePipeline** is a service from
 **Amazon Web Services** that helps you:
@@ -8,7 +8,7 @@
 ![AWS CodePipeline](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-08-DevOps-on-AWS/aws_codepipeline_thumbnail.png) 
 ---
 
-# 🎯 Key Idea
+# 🎯Key Idea
 
 ```id="cp1"
 Code → Build → Deploy → Live Application
