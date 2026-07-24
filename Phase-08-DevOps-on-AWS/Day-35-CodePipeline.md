@@ -4,7 +4,8 @@
 **Amazon Web Services** that helps you:
 
 👉 Automate the **entire CI/CD pipeline**
-
+---
+![AWS CodePipeline](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-08-DevOps-on-AWS/aws_codepipeline_thumbnail.png) 
 ---
 
 # 🎯 Key Idea
