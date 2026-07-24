@@ -14,6 +14,8 @@ The new version of the application that we want to deploy and test.
 
 ### An AWS Blue-Green Deployment is a release strategy that cuts downtime and risk by running two identical production environments: Blue (the current live version) and Green (the new version).Once testing passes on Green, production traffic is instantly routed away from Blue. If something goes wrong, you can instantly roll back to Blue with zero downtime.
 
+### Blue/Green Deployment is designed to minimize or avoid user-visible downtime by preparing the new environment separately and shifting production traffic after validation.
+
 ![AWS BlueGreen Deployment](https://github.com/devopssteps/complete-40-days-AWS-course/blob/main/Phase-08-DevOps-on-AWS/aws_blue_green_deployment_thumbnail.png) 
 ---
 The basic workflow is:
