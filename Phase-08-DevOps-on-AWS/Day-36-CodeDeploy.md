@@ -1,4 +1,4 @@
-# 🚀 What is AWS CodeDeploy?
+# What is AWS CodeDeploy?
 
 **AWS CodeDeploy** is a service from
 **Amazon Web Services** that helps you:
@@ -11,7 +11,7 @@
 
 ---
 
-# 🎯 Key Idea
+# Key Idea
 
 ```id="cd1"
 CodeBuild → CodeDeploy → EC2 (Application Updated)
@@ -23,7 +23,7 @@ CodeBuild → CodeDeploy → EC2 (Application Updated)
 
 ---
 
-# 🔥 Why CodeDeploy is Important?
+# Why CodeDeploy is Important?
 
 * Zero downtime deployments
 * Automated rollbacks
