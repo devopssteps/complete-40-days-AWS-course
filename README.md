@@ -80,7 +80,7 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 34     | CodeBuild with hands on lab                                                       |
 | Day 35     | CodeDeploy with hands on lab                                                      |
 | Day 36     | CodePipeline with hands on lab                                                    |
-| Day 37     | CI/CD Pipeline Demo                                                               |
+| Day 37     | CI/CD Blue Green deployment hands on lab                                          |
 
 ## 🔹 PHASE 9 — Infrastructure as Code (IaC)
 | Day        | Topic                                                                             |
