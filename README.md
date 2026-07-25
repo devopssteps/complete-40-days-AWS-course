@@ -78,8 +78,8 @@ https://www.youtube.com/playlist?list=PLtta-cy3ysUybl5xIuypQfX8135kUG2Or
 | Day 32     | CICD basic & Expalin AWS DevOps Services                                          |
 | Day 33     | CodeCommit with hands on lab                                                      |
 | Day 34     | CodeBuild with hands on lab                                                       |
-| Day 35     | CodeDeploy with hands on lab                                                      |
-| Day 36     | CodePipeline with hands on lab                                                    |
+| Day 35     | CodePipeline with hands on lab                                                    |
+| Day 36     | CodeDeploy with hands on lab                                                      |
 | Day 37     | CI/CD Blue Green deployment hands on lab                                          |
 
 ## 🔹 PHASE 9 — Infrastructure as Code (IaC)
