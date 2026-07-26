@@ -17,7 +17,7 @@
 * Optional NAT Gateway for Private EC2 outbound internet access
 
 
-# 🚀 Complete Project Architecture
+# Complete Project Architecture
 
 Our final infrastructure will look like this:
 
@@ -70,7 +70,6 @@ Our final infrastructure will look like this:
                            Internet
 ```
 
-For a **true production-style architecture**, I recommend placing the NAT Gateway in the public subnet. However, your requirement mentioned **1 IGW**, so I'll include **1 NAT Gateway as an optional component**. The NAT Gateway uses the existing IGW for outbound internet access.
 
 ---
 
@@ -120,7 +119,6 @@ terraform-aws-infrastructure/
 └── terraform.tfvars
 ```
 
-For teaching beginners, you can start with everything in `main.tf`. But for a professional DevOps project, splitting resources into logical files is much better.
 
 ---
 
