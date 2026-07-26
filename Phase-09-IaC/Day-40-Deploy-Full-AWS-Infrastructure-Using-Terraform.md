@@ -1,25 +1,6 @@
  # **Terraform on AWS hands-on project** 
 
-* 1 VPC
-* 1 Public Subnet
-* 1 Private Subnet
-* 1 Internet Gateway (IGW)
-* 2 Route Tables
-* 2 Security Groups
-* 2 EC2 instances
-
-  * Public EC2
-  * Private EC2
-* Terraform variables
-* Terraform outputs
-* SSH from your laptop → Public EC2 → Private EC2
-* Internet access from Public EC2
-* Optional NAT Gateway for Private EC2 outbound internet access
-
-
 # Complete Project Architecture
-
-Our final infrastructure will look like this:
 
 ```text
                               INTERNET
@@ -73,7 +54,7 @@ Our final infrastructure will look like this:
 
 ---
 
-# 🏗️ Final Infrastructure
+# Final Infrastructure
 
 | Resource               |   Quantity |
 | ---------------------- | ---------: |
