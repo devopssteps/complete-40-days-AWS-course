@@ -54,18 +54,6 @@ Resources:
       SecurityGroups:
         - default
 ```
-```sh
----
-Resources:
-  MyInstance:
-    Type: AWS::EC2::Instance
-    Properties:
-      AvailabilityZone: us-east-2a
-      ImageId: ami-0f58b397bc5c1f2e8  # (Update for your region)
-      InstanceType: t2.micro
-```
-
-
 ---
 
 ## 🔹 Step 2: Create Stack
