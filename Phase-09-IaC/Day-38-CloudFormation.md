@@ -1,4 +1,4 @@
-# 🚀 What is Infrastructure as Code (IaC)?
+# What is Infrastructure as Code (IaC)?
 
 👉 **Infrastructure as Code (IaC)** means:
 
@@ -7,7 +7,7 @@
 
 ---
 
-# ☁️ What is CloudFormation?
+# What is CloudFormation?
 
 **AWS CloudFormation** is a service from
 **Amazon Web Services** that lets you:
@@ -16,7 +16,7 @@
 
 ---
 
-# 🎯 Key Idea
+# Key Idea
 
 ```id="cf1"
 Template (YAML/JSON) → CloudFormation → AWS Resources Created Automatically
@@ -24,7 +24,7 @@ Template (YAML/JSON) → CloudFormation → AWS Resources Created Automatically
 
 ---
 
-# 🔥 Why CloudFormation is Important?
+# Why CloudFormation is Important?
 
 * Automation
 * Consistency
@@ -33,13 +33,13 @@ Template (YAML/JSON) → CloudFormation → AWS Resources Created Automatically
 
 ---
 
-# 🧪 Hands-On Demo (Step-by-Step)
+# Hands-On Demo (Step-by-Step)
 
 ## 🔹 Step 1: Create CloudFormation Template
 
 Create a file:
 
-### 📄 `template.yaml`
+### `template.yaml`
 
 ```yaml id="cf2"
 AWSTemplateFormatVersion: '2010-09-09'
@@ -101,7 +101,7 @@ InstanceType: t2.small
 
 ---
 
-## 🔥 Result:
+## Result:
 
 * Instance updated automatically
 * No manual change needed
@@ -116,7 +116,7 @@ InstanceType: t2.small
 
 ---
 
-# 🚀 Advanced Demo (Real DevOps Use)
+# Advanced Demo (Real DevOps Use)
 
 ## 🔹 Create Full Infrastructure
 
@@ -139,7 +139,7 @@ CloudFormation Template →
 
 ---
 
-# 🧠 Real-World Use Cases
+# Real-World Use Cases
 
 * Dev/Test/Prod environment setup
 * CI/CD infrastructure
